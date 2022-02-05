@@ -1,0 +1,42 @@
+
+
+
+/*
+Author: Brian Guevara
+This is our css page which is used across all the FXML files.
+It loads the default 'look' of our windows.
+*/
+
+/* This is our background image*/
+.root {
+    -fx-background-image: url("background.png");
+}
+
+/* These change the font of our text field and plain text (labels)*/
+.text-field {
+    -fx-font-family: "Helvetica";
+}
+
+.text {
+    -fx-font-family: "Arial";
+}
+
+/* These are for our buttons, it the text in them italic */
+.button{
+    -fx-font-size: 12;
+    -fx-font-style: italic
+
+}
+
+/* This is for our Inhouse/Outsourced radio buttons. */
+.radio-button{
+    -fx-font-weight: bold;
+
+}
+
+/* This gives a table a blue border when it selected/interacted with */
+.table-view:row-selection{
+    -fx-border-color: #94f2ea;
+
+
+}
